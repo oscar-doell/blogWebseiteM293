@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5EAFA;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article-list {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    
+  }
+
+
+article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #C2EFEB;
+}
+
+img {
+    max-width: 50%;
+    height: 50%;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header {
+    background-color: #E5EAFA;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .header a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+
+  
+.author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact-form {
+    max-width: 400px;
+    
+}
+
+.contact-form form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #220901;
+}
+
+.newsletter {
+    background-color: #BCABAE;
+    padding: 20px;
+  }
+  
+  .newsletter h2 {
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+  }
+  
+  .newsletter input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .newsletter input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  .intro  h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #C2EFEB;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.intro h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+footer {
+  background-color: #E5EAFA;
+  padding: 20px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden; 
+  }
+
+  .card {
+    flex: 0 0 calc(50% - 20px); 
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #E5EAFA;
+    border-radius: 5px;
+    background-color: #C2EFEB;
+  }
+
+  .card img {
+    max-width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .articles {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.articles-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.articles-description {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.articles-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.articles-text {
+    line-height: 1.6;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #ccc;
+}
+ 
